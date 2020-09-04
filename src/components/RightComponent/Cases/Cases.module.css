@@ -1,0 +1,45 @@
+.container {
+    width: 16rem;
+    height: 6.5rem !important;
+}
+
+.container__card {
+    margin-top: 1em;
+}
+
+.card {
+    background-color: #1e2432 !important;
+    color: white !important;
+    width: 100% !important;
+}
+
+.textNormal {
+    color: #009000;
+    font-weight: bold !important;
+}
+
+.textNormaly {
+    color: #2222b4f3;
+    font-weight: bold !important;
+}
+
+.textDeath {
+    color: #9e0c06;
+    font-weight: bold !important;
+}
+
+.textBig {
+    color: #c5ccdd;
+    font-size: 1.5rem;
+}
+
+.textNormals {
+    font-weight: bold !important;
+    color: #575a61;
+}
+
+.intro {
+    display: flex;
+    justify-content: space-between;
+    color: #575a61;
+}

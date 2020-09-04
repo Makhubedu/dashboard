@@ -1,0 +1,84 @@
+.container {
+    background: #1e2432 !important;
+    border: 2px solid black;
+}
+
+.container__logo {
+    margin-top: .6em;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo_title {
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: small;
+    margin-bottom: 2rem;
+    opacity: .5;
+}
+
+.logo {
+    margin-top: 1em;
+    width: 4rem;
+    height: 3rem;
+    opacity: .55;
+}
+
+.intro__title {
+    margin-left: 1em;
+    font-weight: bold;
+    font-size: smaller;
+    color: #9dadbd;
+}
+
+.item {
+    margin-top: .5em;
+    display: flex;
+    flex-direction: row;
+}
+
+.list {
+    list-style: none;
+    font-weight: bold;
+    font-size: small;
+    color: #9dadbd;
+}
+
+.icon {
+    margin-right: 1em;
+}
+
+.inner__text {
+    display: flex;
+    justify-content: space-between;
+}
+
+.arrow {
+    margin-left: 7rem;
+    font-weight: bolder;
+}
+
+.notification {
+    margin-left: 6rem;
+    background: #0a8297;
+    width: 1rem;
+    text-align: center;
+    border-radius: 23px;
+    color: whitesmoke;
+    font-weight: bolder;
+}
+
+.new {
+    margin-left: 7rem;
+    text-align: center;
+    color: whitesmoke;
+    font-weight: bolder;
+}
+
+.item:hover {
+    color: whitesmoke;
+    font-weight: bolder;
+    cursor: pointer;
+}

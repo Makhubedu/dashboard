@@ -1,0 +1,14 @@
+.container {
+    width: 90%;
+    align-self: center;
+    margin-top: 1em;
+    height: 10rem;
+    position: relative;
+    right: 0;
+}
+
+.card {
+    background-color: #1e2432 !important;
+    color: white !important;
+    width: 100% !important;
+}

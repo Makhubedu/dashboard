@@ -1,0 +1,15 @@
+.option {
+    text-align: center !important;
+    color: whitesmoke !important;
+}
+
+.selectSize {
+    font-weight: bold !important;
+    color: #615c5c !important;
+    text-align: center !important;
+}
+
+.selectForm {
+    font-weight: bold !important;
+    color: whitesmoke !important;
+}

@@ -1,0 +1,13 @@
+.map {
+    position: absolute;
+    height: 32vh;
+    width: 65rem;
+    bottom: 0em;
+}
+
+.img {
+    position: absolute;
+    width: 26rem;
+    height: 30vh;
+    top: 0;
+}

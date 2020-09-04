@@ -1,0 +1,59 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.container__upper {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.chart {
+    flex: 1;
+    position: relative;
+    width: 90%;
+    right: 0;
+    margin-left: 2em;
+}
+
+.card {
+    width: 100%;
+}
+
+.introduction {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1em;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: whitesmoke;
+}
+
+.select {
+    display: flex;
+    margin-right: 5.3rem;
+    color: whitesmoke !important;
+}
+
+.calender {
+    background: #4e78ebee;
+    margin-right: 1em;
+    width: 2.5em;
+    text-align: center;
+}
+
+.refresh {
+    background: #4e78ebee;
+    width: 2.5em;
+    text-align: center;
+}
+
+.refresh:hover,
+.calender:hover {
+    font-weight: bolder;
+    background: rgb(13, 187, 172);
+    cursor: pointer;
+}

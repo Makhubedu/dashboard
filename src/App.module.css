@@ -1,0 +1,32 @@
+html,
+body,
+#root {
+    font: 0.9rem sans-serif;
+    background: #151a22d8;
+    color: #1e2432;
+    height: 100%;
+    margin: 0;
+    background: linear-gradient( #00020a, #07000a);
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    height: 100%;
+    min-height: 100%;
+}
+
+.container__leftComponent {
+    flex: 1;
+    height: 100%;
+    margin-right: 1em;
+}
+
+.container__rightComponent {
+    flex: 4;
+    min-height: 100%;
+}
